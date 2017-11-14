@@ -1,0 +1,19 @@
+body{
+	font-family: "Arial";
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+
+#menu{
+	list-style-type: none;
+	width: 80%;
+	border: 1px solid black;
+}
+
+.link{
+	display: inline-block;
+	float:left;
+}
