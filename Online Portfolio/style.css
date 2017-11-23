@@ -7,13 +7,52 @@ a{
 	text-decoration: none;
 }
 
-#menu{
+#menu, #subMenu{
 	list-style-type: none;
+}
+
+#menu{
 	width: 80%;
-	border: 1px solid black;
+	display: inline;
+}
+
+#subMenu{
+	padding: 0;
 }
 
 .link{
-	display: inline-block;
-	float:left;
+	display: inline;
+	margin-right: 20px;
+}
+
+#title{
+	display: inline;
+}
+
+.link a{
+	transition: 0.5s background-color;
+}
+
+.link a:hover{
+	color: white;
+	background-color: black;
+}
+
+#image{
+	height: 10rem;
+}
+
+#calendar{
+	border: 1px solid black;
+	width: 80%;
+	height: 80%;
+	border-collapse: collapse;
+}
+
+#calendar tr{
+	border: 1px solid black;
+}
+
+#calendar tr td{
+	border: 1px solid black;
 }
