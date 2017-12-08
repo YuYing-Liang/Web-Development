@@ -1,5 +1,5 @@
-body{
-	font-family: "Arial";
+body{ /*styling by tag*/
+	font-family: Roboto;
 }
 
 a{
@@ -7,7 +7,7 @@ a{
 	text-decoration: none;
 }
 
-#menu, #subMenu{
+#menu, #subMenu{ /*styling by id*/
 	list-style-type: none;
 }
 
@@ -29,8 +29,9 @@ a{
 	display: inline;
 }
 
-.link a{
+.link a{ /*styling by class*/
 	transition: 0.5s background-color;
+	font-family: Roboto Mono;
 }
 
 .link a:hover{
@@ -53,6 +54,24 @@ a{
 	border: 1px solid black;
 }
 
-#calendar tr td{
+#calendar tr td, #calendar tr th{
 	border: 1px solid black;
+	width: 100px;
 }
+
+#calendar tr td{
+	text-align: right;
+	vertical-align: top;
+	padding: 5px;
+}
+
+#calendar tr th{
+	height: 50px;
+}
+
+/*comment
+line
+line
+*/
+
+
